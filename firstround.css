@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.category-row,
+.points-row {
+    display: flex;
+    justify-content: center;
+
+}
+
+.category,
+.points {
+    width: 150px;
+    height: 50px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* .guess-button,
+.pass-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+} */
+
+.score-section {
+    display: flex;
+    justify-content: center;
+}
+
+.player-score {
+    margin-right: 20px;
+}
+
+.player-name {
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
