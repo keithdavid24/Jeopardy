@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Jeopardy </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.folder/final.css">
+    <link rel="stylesheet" href="styles.folder/firstround.css">
+    <link rel="stylesheet" href="styles.folder/secondround.css">
 </head>
 
 <body>
     <div class="container">
-        <h1 class="title">Jeopardy</h1>
-        <img class="game-image"
-            src="https://www.newscaststudio.com/wp-content/uploads/2020/09/jeopardy-season-37-graphics.jpg"
-            alt="Jeopardy Game">
+        <h1 class="final-round-title">Final Round</h1>
+        <div class="final-category">Final Category</div>
+        <img class="final-image" src="https://cdn.quizly.co/wp-content/uploads/2017/11/10000021/150.jpg"
+            alt="Final-question">
+        <form class="final-form">
+            <input type="number" id="bet-amount" name="bet-amount" placeholder="Point bet amount.." required>
+            <input type="text" id="final-answer" class="final-answer" placeholder="Final answer.." required>
+            <!-- Did not add the next round button / Just created submit button assigned as "Bet"  -->
+            <button type="submit"> Bet </button>
+        </form>
     </div>
 
     <div>
-        <a href="secondround.html">
+        <a href="firstround.html">
             <button class="previous-round">Previous Round</button>
 
         </a>
     </div>
+
     <footer class="footer">
         Upright Unit 1 Project Copyright [2023]
     </footer>
